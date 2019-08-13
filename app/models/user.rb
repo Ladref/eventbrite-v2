@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :attendances
   has_many :events, through: :attendances
-  after_create :welcome_send
+  #after_create :welcome_send
   #Enlever ligne 8 sinon heroku plante
 
   def welcome_send
