@@ -1,2 +1,10 @@
-<h1> HELLO </h1>
-<%= @event.title %>
+<br/><div class="card">
+  <h5 class="card-header"><%= @event.title %></h5>
+  <div class="card-body">
+    <p class="card-text"><strong>Location:</strong> <%= @event.location %>
+    <p class="card-text"><strong>Price:</strong> <%= @event.price %></p>
+    <p class="card-text"><strong>End date:</strong> <%= @event.end_date %></p>
+    <p class="card-text"><strong>Description:</strong> <%= @event.description %></p>
+    <a href="<%= root_path %>" class="btn btn-primary">Event's page</a>
+  </div>
+</div>

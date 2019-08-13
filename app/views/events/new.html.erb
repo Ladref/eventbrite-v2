@@ -2,36 +2,51 @@
   <body>
     <!-- ... -->
 
-    <%= form_tag url_for(action: "create"), method: "post" do %>
-        <%= label_tag 'Title' %> <br />
-        <%= text_field_tag 'title', @event.title %>
+    <div class="row">
+      <%= form_tag url_for(action: "create"), method: "post" do %>
+      <div class="col">
+          <%= label_tag 'Title' %> <br />
+          <%= text_field_tag 'title', @event.title, class: 'form-control', autofocus: true %>
+      </div>
         <br /> <br />
 
-        <%= label_tag 'Description' %><br />
-        <%= text_field_tag 'description', @event.description %>
-        <br /> <br />
+        <div class="col">
+          <%= label_tag 'Description' %><br />
+          <%= text_area 'description', @event.description, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
 
-        <%= label_tag 'Location' %><br />
-        <%= text_field_tag 'location', @event.location %>
-        <br /> <br />
+          <div class="col">
+          <%= label_tag 'Location' %><br />
+          <%= text_field_tag 'location', @event.location, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
 
-        <%= label_tag 'Start date' %><br />
-        <%= date_field_tag 'start_date', @event.start_date %>
-        <br /> <br />
+        <div class="col">
+          <%= label_tag 'Start date' %><br />
+          <%= date_field_tag 'start_date', @event.start_date, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
 
-        <%= label_tag 'Duration in mins' %><br />
-        <%= number_field_tag 'duration', @event.duration %>
-        <br /> <br />
+        <div class="col">
+          <%= label_tag 'Duration in mins' %><br />
+          <%= number_field_tag 'duration', @event.duration, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
 
-        <%= label_tag 'Price' %><br />
-        <%= number_field_tag 'price', @event.price %>
-        <br /> <br />
+        <div class="col">
+          <%= label_tag 'Price' %><br />
+          <%= number_field_tag 'price', @event.price, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
 
-        <%= submit_tag "Submit event" %>
-        <% end %>
+          <div class="col">
+          <%= submit_tag "Submit event", class: "btn btn-primary" %>
+      <% end %>
 
-
+      <br/><br/>
     <% if @event.errors.any? %>
+    
     <p>Please verify your event:</p>
     <ul>
       <% @event.errors.full_messages.each do |message| %>
@@ -39,9 +54,6 @@
       <% end %>
     </ul>
     <% end %>
-
-
-
 
 
     <!-- ... -->

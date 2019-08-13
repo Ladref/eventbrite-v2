@@ -13,7 +13,7 @@ emails = ["qitutiniss-5449@yopmail.com", "aqaddoril-4796@yopmail.com", "qozumeli
           "edamegorr-1480@yopmail.com", "enoffiffik-6506@yopmail.com", "exinneza-0237@yopmail.com", "ixugodady-5496@yopmail.com"]
 for i in 0..7
   User.create(email: emails[i], encrypted_password: Faker::Internet.password(min_length: 8),
-              description: Faker::Lorem.sentence(word_count: 3), first_name: Faker::Name.first_name,
+              description: Faker::Lorem.sentence(word_count: 20), first_name: Faker::Name.first_name,
               last_name: Faker::Name.last_name)
 end
 

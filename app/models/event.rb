@@ -7,4 +7,9 @@ class Event < ApplicationRecord
   validates :location, presence:true
   has_many :attendances
   has_many :users, through: :attendances
+
+  def end_date
+    @end_date = self.start_date + self.duration
+  end
+
 end
