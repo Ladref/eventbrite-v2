@@ -1,0 +1,15 @@
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <%= image_tag "student.png", alt: "User", width: 180, height: 180 %>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"> <%= @user.first_name%> <%= @user.last_name%> </h5>
+        <p class="card-link"><%=@user.email%></p>
+        <p class="card-text"><%=@user.description%></p>
+        <p class="card-text"><small class="text-muted"><%=@user.updated_at%></small></p>
+      </div>
+    </div>
+  </div>
+</div>
