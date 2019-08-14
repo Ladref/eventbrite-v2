@@ -18787,3 +18787,1591 @@ Completed 200 OK in 61ms (Views: 22.0ms | ActiveRecord: 0.4ms)
 
 
   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Destroy (21.0ms)[0m  [1m[31mDELETE FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[36mEvent Destroy (6.5ms)[0m  [1m[31mDELETE FROM "events"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAttendance Destroy (0.5ms)[0m  [1m[31mDELETE FROM "attendances"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "qitutiniss-5449@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aqaddoril-4796@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "qozumeli-8462@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "samidegyw-3581@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "edamegorr-1480@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "enoffiffik-6506@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "exinneza-0237@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ixugodady-5496@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to AddDeviseToUsers (20190813090423)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDeviseToUsers (20190813090423)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to AddDeviseToUsers (20190813090423)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (12.6ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20190813090423"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (12.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateAttendances (20190812125440)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (42.4ms)[0m  [1m[35mDROP TABLE "attendances"[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20190812125440"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (26.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateEvents (20190812114759)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.3ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.5ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20190812114759"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateUsers (20190812113516)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (18.7ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.5ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20190812113516"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (14.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190812113516)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (47.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying, "encrypted_password" character varying, "description" text, "first_name" character varying, "last_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812113516_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812113516"]]
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateEvents (20190812114759)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "start_date" timestamp, "duration" integer, "title" character varying, "description" text, "price" integer, "location" character varying, "admin_id_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812114759_create_events.rb:3
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_admin_id_id" ON "events"  ("admin_id_id")[0m
+  ↳ db/migrate/20190812114759_create_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812114759"]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateAttendances (20190812125440)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "attendances" ("id" bigserial primary key, "stripe_customer_id" character varying, "participant_id_id" bigint, "event_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812125440_create_attendances.rb:3
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_participant_id_id" ON "attendances"  ("participant_id_id")[0m
+  ↳ db/migrate/20190812125440_create_attendances.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_event_id" ON "attendances"  ("event_id")[0m
+  ↳ db/migrate/20190812125440_create_attendances.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812125440"]]
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to AddDeviseToUsers (20190813090423)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_token" character varying[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_created_at" timestamp[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:15
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:40
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:41
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190813090423"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (12.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-08-14 11:01:52 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 11:01:53 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 235ms (Views: 195.3ms | ActiveRecord: 29.3ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-08-14 11:01:57 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___3524220213514528044_70280832110240 at /Users/louisdreyfus/ladref/THP/Week7/Day29_Gem_Devise/eventbrite-v2/app/views/devise/registrations/new.html.erb:6)
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2019-08-14 11:02:29 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wV7aAO9tBc0Dl4/Sutvmq6x0lL+fXO7QX74lA8+eV8/aRN/ng8XBk/KLaE4RnoctR9JH+TZpq/SU6+IzKwKsNg==", "user"=>{"first_name"=>"lolo", "last_name"=>"dreydrey", "description"=>"hey hey hey hey hey ", "email"=>"lolo@drey.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "lolo@drey.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "lolo@drey.com"], ["encrypted_password", "$2a$11$SV8MfC/3ZEYS/VZl.cICW.FRrDUF3cun0vupEnQrj//PnvdohCity"], ["description", "hey hey hey hey hey "], ["first_name", "lolo"], ["last_name", "dreydrey"], ["created_at", "2019-08-14 09:02:29.320938"], ["updated_at", "2019-08-14 09:02:29.320938"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 146ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 11:02:29 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 35ms (Views: 21.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:02:36 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:10
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 60ms (Views: 29.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 11:03:10 +0200
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 11:03:10 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:03:14 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YF7vv0w7JH+p58bAgSFEiOTtTOEscrdhtbLymFFB0X9qX4mDavrFV97rCRvQledHUEhE7KU2TdY3gaVi1PSsTQ==", "user"=>{"email"=>"paul.dreyfus@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "paul.dreyfus@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YF7vv0w7JH+p58bAgSFEiOTtTOEscrdhtbLymFFB0X9qX4mDavrFV97rCRvQledHUEhE7KU2TdY3gaVi1PSsTQ==", "user"=>{"email"=>"paul.dreyfus@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 148ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:03:15 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pbk+mmpFF54QvMzkGAvKtuYR0TdM4ltv+S8pLrSrLMk3uFimTIT2tmewAz9Jv2l5UrTZOsWmodh7HH7UMR5R+w==", "user"=>{"email"=>"paul.dreyfus@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "paul.dreyfus@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.5ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pbk+mmpFF54QvMzkGAvKtuYR0TdM4ltv+S8pLrSrLMk3uFimTIT2tmewAz9Jv2l5UrTZOsWmodh7HH7UMR5R+w==", "user"=>{"email"=>"paul.dreyfus@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 159ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:03:16 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jrWxx2oLzXK/R6oW6O+WalN7hEfRrgkTxlzgm33PRJaEtNf7TMosWshLZc25WzWl596MSljq86REb7dh+Ho5pA==", "user"=>{"email"=>"paul.dreyfus@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "paul.dreyfus@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jrWxx2oLzXK/R6oW6O+WalN7hEfRrgkTxlzgm33PRJaEtNf7TMosWshLZc25WzWl596MSljq86REb7dh+Ho5pA==", "user"=>{"email"=>"paul.dreyfus@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 144ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-08-14 11:03:26 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb___3524220213514528044_70280850414040 at /Users/louisdreyfus/ladref/THP/Week7/Day29_Gem_Devise/eventbrite-v2/app/views/devise/registrations/new.html.erb:6)
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2019-08-14 11:04:01 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5TVSIOhNM1WUhMI+Sqm+vwI0rHg9KCFPsjYmjEpzeJk1KH0lyylqXAkuvbEgCC3K/QoQCEX1afm6ffpAbtGagA==", "user"=>{"first_name"=>"lolo", "last_name"=>"dreydrey", "description"=>"hey my name is lolo dreydrey i'm from paris", "email"=>"lolo.dreydrey@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "lolo.dreydrey@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "lolo.dreydrey@gmail.com"], ["encrypted_password", "$2a$11$vx5Ddtb.8FYbOncrWXkc3.9kfjpqe5OSZv.09hwyqA7hW5YCqyzNe"], ["description", "hey my name is lolo dreydrey i'm from paris"], ["first_name", "lolo"], ["last_name", "dreydrey"], ["created_at", "2019-08-14 09:04:01.194910"], ["updated_at", "2019-08-14 09:04:01.194910"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 146ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 11:04:01 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 30ms (Views: 25.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 11:04:04 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:04:13 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:10
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 59ms (Views: 43.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:04:53 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wjwPleV9VAiCT0SATv3tyJePGUT2stUYOwi1RbS82IUw3ugRJBvDZXlAf1asd2uGr3kagotVhLjVr4FYG8DlxQ==", "title"=>"MEETING THP", "description"=>["THIS IS AN EXCLUSIVE EVENT FOR THP MEMBERS"], "location"=>"PARIS", "start_date"=>"2019-08-24", "duration"=>"30", "price"=>"30", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'user_id' for Event.):
+  
+app/controllers/events_controller.rb:15:in `create'
+Started GET "/" for ::1 at 2019-08-14 11:09:14 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 50ms (Views: 23.8ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 11:09:17 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (7.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 48ms (Views: 35.4ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:09:19 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:10
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:10
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 70ms (Views: 36.3ms | ActiveRecord: 8.7ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:10:05 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6CnBrR0UHTegGTQhGPKXBWm889bGAG4zYHqkMLotVBcayyYp3HKKWlsWD/f6eBFLUUrwELvnP5OO3ZAtFVFpVw==", "title"=>"THP EVENT", "description"=>["EXCLUSIVE THP EVENT FOR THE FIRST 20 PERSONS"], "location"=>"PARIS", "start_date"=>"2019-08-23", "duration"=>"40", "price"=>"50", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+
+  
+NameError (uninitialized constant Event::user):
+  
+app/controllers/events_controller.rb:15:in `create'
+Started GET "/" for ::1 at 2019-08-14 11:10:46 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 19.9ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:10:48 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 62ms (Views: 31.0ms | ActiveRecord: 7.2ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:11:11 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BITAtGwihz6nGXTNWHjLCKm2am+uGIS/lkV0znLFngD2ZicwrUQQU1wWTxu68k1GkUBpqdP/1R944kDT3bmjQA==", "title"=>"THP EVENT", "description"=>["EXCLUSIVE THP EVENT FOR THE FIRST 20 PERSONS"], "location"=>"PARIS", "start_date"=>"2019-08-25", "duration"=>"40", "price"=>"20", "commit"=>"Submit event"}
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:20
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:20
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 61ms (Views: 43.3ms | ActiveRecord: 9.6ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:12:20 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zXcgOrYioBbCJ0lJHDLkN0Ss+pY3azkaXgFGLqFK/vHHdkYGkONBPrUrhpJNhkf48Anym74vw63cMhHUJP+Dww==", "title"=>"THP EVENT", "description"=>{"\"EXCLUSIVE THP EVENT FOR THE FIRST 20 PERSONS\""=>"THP EVENT FOR VIP MEMBERS"}, "location"=>"PARIS", "start_date"=>"", "duration"=>"40", "price"=>"20", "commit"=>"Submit event"}
+  [1m[36mUser Load (14.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:20
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:20
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 30.4ms | ActiveRecord: 15.3ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:12:31 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LEzQmYRdHTaU/jcE+ux9PuahaxwSGSh8/bSgF+S4xt8mTbalopz8HuPy+N+rWN7xUgRjEZtd0st/h/ftYQ277Q==", "title"=>"THP EVENT", "description"=>{"{\"\\\"EXCLUSIVE THP EVENT FOR THE FIRST 20 PERSONS\\\"\"=>\"THP EVENT FOR VIP MEMBERS\"}"=>"THP EVENT FOR VIP MEMBERS"}, "location"=>"PARIS", "start_date"=>"2019-08-17", "duration"=>"40", "price"=>"20", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:20
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:20
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 62ms (Views: 51.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:16:55 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wEGIiufwZprgRX1sLWjXSRbLs+ZNmxsEonmqIYDuCBvKQO62wTGHspdJsrd83HSGom6768Tf4bMgSv3bBVt1KQ==", "title"=>"THP EVENT", "description"=>{"{\"{\\\"\\\\\\\"EXCLUSIVE THP EVENT FOR THE FIRST 20 PERSONS\\\\\\\"\\\"=>\\\"THP EVENT FOR VIP MEMBERS\\\"}\"=>\"THP EVENT FOR VIP MEMBERS\"}"=>"THP EVENT FOR VIP MEMBERS"}, "location"=>"PARIS", "start_date"=>"2019-08-17", "duration"=>"40", "price"=>"20", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 5.0ms)
+
+
+  
+NameError (uninitialized constant Event::user):
+  
+app/controllers/events_controller.rb:17:in `create'
+Started GET "/" for ::1 at 2019-08-14 11:18:14 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 232ms (Views: 191.8ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 11:18:21 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 28.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:18:22 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 269ms (Views: 27.9ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:18:41 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nJjZWW2VrXFp/ImvtLepYoI4KUPYceCldoWodNKhdmluej7drPM6HJLzsnlWPS8sus4qhaWWsQWYIpxpfd1LKQ==", "title"=>"THP EVENT", "description"=>["EXCLUSIVE EVENT FOR THP MEMBER"], "location"=>"PARIS", "start_date"=>"2019-08-18", "duration"=>"40", "price"=>"34", "commit"=>"Submit event"}
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:24
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 59ms (Views: 48.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 11:26:37 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 25.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 11:26:42 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (16.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 34.5ms | ActiveRecord: 16.5ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:26:43 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (8.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (1.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 57ms (Views: 25.4ms | ActiveRecord: 11.7ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:26:47 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aqmCmb2j7lOlBX0ZzYPJ3y/pSc1jLcKlTwrX669eIOGYS2UdfMV5Pl4KRs8vCU+RFx9KCx7KkwWhreP2ACIdoQ==", "title"=>"TH", "description"=>[""], "location"=>"", "start_date"=>"", "duration"=>"", "price"=>"", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:24
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 37.0ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:27:13 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EumEjbFgTg6Mp+xhbX+XyHL1TDJ5v8jgmCni6dvrlb8Y6OKxl6GvJvurI7o8yzQHxlBEP/D7MlcaGrUTXl7ojQ==", "title"=>"THP EVENT", "description"=>{"\"\""=>"THIS IS AN EXCLUSIVE THP EVENT"}, "location"=>"PARIS", "start_date"=>"2019-08-17", "duration"=>"20", "price"=>"20", "commit"=>"Submit event"}
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (5.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (3.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:24
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 69ms (Views: 38.7ms | ActiveRecord: 23.4ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:34:30 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MqlDzkaF7PBbkGTwLvjqC9ZP2t8Q9h0O+vKEgcLP6H04qCXyYEQN2Cycqyt/TEnEYurS0pmy57l4wdN7R3qVTw==", "title"=>"THP EVENT", "description"=>{"{\"\\\"\\\"\"=>\"THIS IS AN EXCLUSIVE THP EVENT\"}"=>"this is an event for thp members"}, "location"=>"PARIS", "start_date"=>"2019-08-24", "duration"=>"20", "price"=>"20", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 12.9ms)
+
+
+  
+NameError (uninitialized constant Event::user):
+  
+app/controllers/events_controller.rb:17:in `create'
+Started GET "/" for ::1 at 2019-08-14 11:34:44 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 57ms (Views: 31.6ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 11:34:49 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (21.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 26.1ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 11:34:50 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 55ms (Views: 24.3ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:35:12 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"voE2pxfvW9Li/zpid8GcpyrYld0o8xMU+dDf5fscE2NMY9Ej1onMvxnwAbSVSxrpEi6WG1UUQrQXd+v4VGAuIw==", "title"=>"THP EVENT", "description"=>["this is an event for thp members"], "location"=>"Paris", "start_date"=>"2019-08-17", "duration"=>"20", "price"=>"40", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:24
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 50ms (Views: 37.4ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 11:37:34 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ARkwtUQ+zoaejQwN271KjshqB1FzeOsqU0iqXu+MM4gLGFaJYv8vrumBw9aKCelBfM8PXPo8EZ3Re/2kajlOug==", "title"=>"THP EVENT", "description"=>{"\"this is an event for thp members\""=>"this is an event for thp members"}, "location"=>"Paris", "start_date"=>"", "duration"=>"20", "price"=>"40", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:24
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 6.8ms)
+
+
+  
+NameError (uninitialized constant Event::user):
+  
+app/controllers/events_controller.rb:24:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (237.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "eventbrite_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (233.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "eventbrite_test"[0m
+  ↳ bin/rails:9
+  [1m[35m (594.0ms)[0m  [1m[35mCREATE DATABASE "eventbrite_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (493.6ms)[0m  [1m[35mCREATE DATABASE "eventbrite_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (28.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (26.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4712895195414035070)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190812113516)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (27.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying, "encrypted_password" character varying, "description" text, "first_name" character varying, "last_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812113516_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812113516"]]
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateEvents (20190812114759)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "start_date" timestamp, "duration" integer, "title" character varying, "description" text, "price" integer, "location" character varying, "admin_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812114759_create_events.rb:3
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE  INDEX  "index_events_on_admin_id" ON "events"  ("admin_id")[0m
+  ↳ db/migrate/20190812114759_create_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812114759"]]
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateAttendances (20190812125440)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "attendances" ("id" bigserial primary key, "stripe_customer_id" character varying, "participant_id" bigint, "event_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190812125440_create_attendances.rb:3
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_participant_id" ON "attendances"  ("participant_id")[0m
+  ↳ db/migrate/20190812125440_create_attendances.rb:3
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE  INDEX  "index_attendances_on_event_id" ON "attendances"  ("event_id")[0m
+  ↳ db/migrate/20190812125440_create_attendances.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190812125440"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to AddDeviseToUsers (20190813090423)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_token" character varying[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:11
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:12
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_created_at" timestamp[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:15
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:40
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  ↳ db/migrate/20190813090423_add_devise_to_users.rb:41
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190813090423"]]
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-14 09:52:25.226430"], ["updated_at", "2019-08-14 09:52:25.226430"]]
+  ↳ bin/rails:9
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4712895195414035070)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "louis.dreyfus@icloud.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "louis.dreyfus@icloud.com"], ["encrypted_password", "$2a$11$qBVGeCyKnpMruNsOs7KtgurRDPlOvlhQBfs6LFTbWTR9lfRTcCTRu"], ["created_at", "2019-08-14 09:54:02.410661"], ["updated_at", "2019-08-14 09:54:02.410661"]]
+  [1m[35m (11.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (6.4ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-08-23 00:00:00"], ["duration", 30], ["title", "thp event"], ["description", "this is an event for thp"], ["price", 30], ["location", "Paris"], ["admin_id", 1], ["created_at", "2019-08-14 09:54:14.864089"], ["updated_at", "2019-08-14 09:54:14.864089"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.5ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAttendance Load (21.7ms)[0m  [1m[34mSELECT "attendances".* FROM "attendances"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "qitutiniss-5449@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "qitutiniss-5449@yopmail.com"], ["encrypted_password", "$2a$11$rDshMocMw.7lfuagUqIhY.Jtz86oBuKGUd7V4ixDxKsnrxS8CpUoW"], ["description", "Iusto recusandae similique praesentium quis rerum atque officiis ex sapiente saepe aut quos delectus inventore voluptas voluptatem odio ratione est."], ["first_name", "Rachael"], ["last_name", "Wunsch"], ["created_at", "2019-08-14 09:56:41.049342"], ["updated_at", "2019-08-14 09:56:41.049342"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aqaddoril-4796@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "aqaddoril-4796@yopmail.com"], ["encrypted_password", "$2a$11$bkdGpLwVvu3XbBTux6xffutM2oXo7PWJQFMVvvirqUd7iFJWq6Cxu"], ["description", "Quae voluptatibus perspiciatis qui voluptatum ad molestiae soluta illum magnam distinctio omnis molestias quia autem iusto necessitatibus molestiae explicabo et."], ["first_name", "Edwardo"], ["last_name", "Hammes"], ["created_at", "2019-08-14 09:56:41.173176"], ["updated_at", "2019-08-14 09:56:41.173176"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "qozumeli-8462@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "qozumeli-8462@yopmail.com"], ["encrypted_password", "$2a$11$r.K8Iny2W0lJpWyTTnOqxu/ltSHDLoRUrVJfUUV4NS1BHaiYcEOcW"], ["description", "Et expedita ducimus dolorum nesciunt totam quisquam nostrum et et nihil dolor corporis qui excepturi quas et illo dolorem iusto."], ["first_name", "Maryln"], ["last_name", "Huel"], ["created_at", "2019-08-14 09:56:41.297137"], ["updated_at", "2019-08-14 09:56:41.297137"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "samidegyw-3581@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "samidegyw-3581@yopmail.com"], ["encrypted_password", "$2a$11$EEJGTvQdTrAy3Vbd4iUKaeX7GvKNZt7NKCgCpt3lk6HnapjQQTBrC"], ["description", "Et id aperiam quisquam eligendi consequuntur libero excepturi explicabo dolorum sapiente et culpa placeat et commodi voluptatem assumenda reiciendis consectetur."], ["first_name", "Antione"], ["last_name", "Langosh"], ["created_at", "2019-08-14 09:56:41.423022"], ["updated_at", "2019-08-14 09:56:41.423022"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "edamegorr-1480@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "edamegorr-1480@yopmail.com"], ["encrypted_password", "$2a$11$RsWiPC1rkd6Lk5sxDhpYAe5fqEzjyLuuAbeWG0ksXEtKLIb12YhdW"], ["description", "Velit magnam repellendus nisi minus quas quis est eum nihil tempore adipisci molestiae voluptas qui optio quos sed illum tenetur."], ["first_name", "Eric"], ["last_name", "Hoppe"], ["created_at", "2019-08-14 09:56:41.545176"], ["updated_at", "2019-08-14 09:56:41.545176"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "enoffiffik-6506@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "enoffiffik-6506@yopmail.com"], ["encrypted_password", "$2a$11$Zb2X/u1/X6ZChbdxcJN4Ber/H//xbE7u1WQpSTqPxK8id2KtkXBDy"], ["description", "Qui ipsam totam vel molestiae quia sit omnis accusamus repudiandae ullam ut commodi ab unde ea sequi harum modi eum."], ["first_name", "Raye"], ["last_name", "Schulist"], ["created_at", "2019-08-14 09:56:41.668666"], ["updated_at", "2019-08-14 09:56:41.668666"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "exinneza-0237@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "exinneza-0237@yopmail.com"], ["encrypted_password", "$2a$11$yEV6Ij.ioDOMlg58hL/l6uZ6qGa6m5HHWOBfzezbjy1MK/dLrSnCO"], ["description", "Pariatur sunt aliquid ab harum cupiditate non et voluptate praesentium dolore aut nostrum magnam commodi et adipisci sint quas et."], ["first_name", "Young"], ["last_name", "Kutch"], ["created_at", "2019-08-14 09:56:41.787793"], ["updated_at", "2019-08-14 09:56:41.787793"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ixugodady-5496@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "ixugodady-5496@yopmail.com"], ["encrypted_password", "$2a$11$JE5S411d5NW8tWyLhjPne.9q2sc0j5sf368bVsJvH2BJ5Fd7M4E6e"], ["description", "Modi quo enim rerum velit qui ex nam iusto libero officia voluptas est non exercitationem odit ut veniam sit quaerat."], ["first_name", "Melody"], ["last_name", "Mann"], ["created_at", "2019-08-14 09:56:41.915346"], ["updated_at", "2019-08-14 09:56:41.915346"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-12 00:00:00"], ["duration", 40], ["title", "I Know Why the Caged Bird Sings"], ["description", "Sed et tempora ex consequatur cumque incidunt voluptate eum expedita itaque id ut et et ab inventore qui et at ratione eligendi molestiae saepe alias quisquam repellat reprehenderit mollitia dolor."], ["price", 8], ["location", "Nellburgh"], ["admin_id", 5], ["created_at", "2019-08-14 09:56:41.930804"], ["updated_at", "2019-08-14 09:56:41.930804"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-09-29 00:00:00"], ["duration", 40], ["title", "Jesting Pilate"], ["description", "Aliquid eum iure vitae et nostrum ad maiores non autem quia facere temporibus tenetur laborum aut expedita est aut aliquam explicabo rem et exercitationem enim itaque laudantium repellendus aspernatur quas."], ["price", 8], ["location", "New Antionetteville"], ["admin_id", 4], ["created_at", "2019-08-14 09:56:41.940846"], ["updated_at", "2019-08-14 09:56:41.940846"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-09-18 00:00:00"], ["duration", 40], ["title", "The Cricket on the Hearth"], ["description", "Quaerat sunt sed et ut corrupti cumque ut quia rerum voluptas recusandae consequatur qui at neque laboriosam aliquid molestiae atque dolorum molestiae laborum eius saepe temporibus quibusdam est ipsam officia."], ["price", 8], ["location", "North Margorie"], ["admin_id", 3], ["created_at", "2019-08-14 09:56:41.950362"], ["updated_at", "2019-08-14 09:56:41.950362"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-17 00:00:00"], ["duration", 40], ["title", "O Pioneers!"], ["description", "Natus cum fugiat reiciendis et id incidunt est qui fuga soluta nostrum eius culpa dolore autem a praesentium in aut et atque nam voluptas qui dolorem assumenda omnis veniam sunt."], ["price", 8], ["location", "Lake Zane"], ["admin_id", 9], ["created_at", "2019-08-14 09:56:41.958365"], ["updated_at", "2019-08-14 09:56:41.958365"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-01 00:00:00"], ["duration", 40], ["title", "By Grand Central Station I Sat Down and Wept"], ["description", "Consequuntur qui laborum similique est ut quia nesciunt sapiente est fuga eum et quis distinctio cupiditate deleniti repellendus nostrum aliquam accusamus consequatur voluptas odio aut nulla dicta modi fugiat soluta."], ["price", 8], ["location", "South Tedside"], ["admin_id", 7], ["created_at", "2019-08-14 09:56:41.961808"], ["updated_at", "2019-08-14 09:56:41.961808"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-18 00:00:00"], ["duration", 40], ["title", "Moab Is My Washpot"], ["description", "Omnis quam facere aliquid commodi repudiandae autem labore et amet dolor aut aspernatur repellat iusto quia sint et deserunt rerum consequatur et sit cupiditate in quos porro laborum a harum."], ["price", 8], ["location", "South Roni"], ["admin_id", 8], ["created_at", "2019-08-14 09:56:41.965841"], ["updated_at", "2019-08-14 09:56:41.965841"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-09-01 00:00:00"], ["duration", 40], ["title", "This Lime Tree Bower"], ["description", "Dolores eligendi et at occaecati aliquam illo cupiditate est quos et ea optio adipisci sed quia et officia incidunt suscipit vero quia neque possimus quas et non totam voluptate ut."], ["price", 8], ["location", "New Jess"], ["admin_id", 7], ["created_at", "2019-08-14 09:56:41.972574"], ["updated_at", "2019-08-14 09:56:41.972574"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-05 00:00:00"], ["duration", 40], ["title", "Arms and the Man"], ["description", "Eveniet autem aut commodi corrupti sapiente voluptatibus nihil assumenda provident quae ducimus numquam nulla et voluptatem quod quis voluptatem fuga eius maxime suscipit in velit occaecati officia illo recusandae culpa."], ["price", 8], ["location", "Missymouth"], ["admin_id", 7], ["created_at", "2019-08-14 09:56:41.976658"], ["updated_at", "2019-08-14 09:56:41.976658"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (1.0ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:8
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:8
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:8
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.2ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.2ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.1ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.2ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.2ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.2ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mEvent Destroy (0.3ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAttendance Load (0.4ms)[0m  [1m[34mSELECT "attendances".* FROM "attendances"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "qitutiniss-5449@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "qitutiniss-5449@yopmail.com"], ["encrypted_password", "$2a$11$B3dKkVgkpSV4JE2CXFk32eOf4WfNy9OIRJkm9Anen/Vk6mzlGBA2a"], ["description", "Facilis soluta dolorum laborum quis et omnis praesentium unde sunt quis aspernatur quas iste qui fuga ea labore odit sint."], ["first_name", "Evonne"], ["last_name", "Oberbrunner"], ["created_at", "2019-08-14 09:57:24.245216"], ["updated_at", "2019-08-14 09:57:24.245216"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aqaddoril-4796@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "aqaddoril-4796@yopmail.com"], ["encrypted_password", "$2a$11$sAxpmr.B2FQFvIR3yOlQfOYkwzGMCBaDqbUGL22B9NlV1dtTL3V8S"], ["description", "Dolore nobis quisquam et dolor sequi libero quod deserunt inventore quo eveniet fuga aperiam eligendi et non ex et aut."], ["first_name", "Chau"], ["last_name", "Blanda"], ["created_at", "2019-08-14 09:57:24.371160"], ["updated_at", "2019-08-14 09:57:24.371160"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "qozumeli-8462@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "qozumeli-8462@yopmail.com"], ["encrypted_password", "$2a$11$px2KUNYjGKtQrRfdIQ7iluD.lpe2FA6tjLd.sNKhdfLmGvPjWeuX2"], ["description", "Et rerum optio earum consequatur voluptates magni occaecati eaque non et totam tempora ut praesentium ex consequatur labore velit eos."], ["first_name", "Virgilio"], ["last_name", "Huels"], ["created_at", "2019-08-14 09:57:24.495445"], ["updated_at", "2019-08-14 09:57:24.495445"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "samidegyw-3581@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "samidegyw-3581@yopmail.com"], ["encrypted_password", "$2a$11$QEAu7s3jTgHv9pltXoMbMO/eadP/XSttiYAlKEQrfmyBpqHbqdWR2"], ["description", "Eligendi qui facilis qui esse ullam at deserunt et sit voluptatibus et tenetur animi eos porro perferendis earum harum quod."], ["first_name", "Carrol"], ["last_name", "Murray"], ["created_at", "2019-08-14 09:57:24.632943"], ["updated_at", "2019-08-14 09:57:24.632943"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "edamegorr-1480@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "edamegorr-1480@yopmail.com"], ["encrypted_password", "$2a$11$k1QqL/aw/uIolgdgQ/uPHuTI.waqr0Qba.6VxX0dKBnFLZ2a449Se"], ["description", "Eius necessitatibus omnis dolor unde cum qui odit nemo assumenda maxime consequuntur at cumque aperiam ut quasi dolorem rerum occaecati."], ["first_name", "Elden"], ["last_name", "Fadel"], ["created_at", "2019-08-14 09:57:24.754744"], ["updated_at", "2019-08-14 09:57:24.754744"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "enoffiffik-6506@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "enoffiffik-6506@yopmail.com"], ["encrypted_password", "$2a$11$6uSLkFHC2weSalgAljoB6.IM0hWHkokaFu9vfxlyB.jP1k/RZpd0S"], ["description", "Quasi ut rerum sunt et et ut et omnis velit assumenda ad qui dolorum libero aut eum ipsa aperiam asperiores."], ["first_name", "Janel"], ["last_name", "Kulas"], ["created_at", "2019-08-14 09:57:24.876764"], ["updated_at", "2019-08-14 09:57:24.876764"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "exinneza-0237@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "exinneza-0237@yopmail.com"], ["encrypted_password", "$2a$11$OhTGDxSvOlNh/g2JgiqitO/j/JYNOT/LhVtpgr1fDULm9YAUdgsH."], ["description", "Ex id quam atque sit error et illo dolore et reiciendis enim repellendus iure voluptate sequi itaque aliquam harum eum."], ["first_name", "Lyndon"], ["last_name", "Grady"], ["created_at", "2019-08-14 09:57:25.002707"], ["updated_at", "2019-08-14 09:57:25.002707"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ixugodady-5496@yopmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "ixugodady-5496@yopmail.com"], ["encrypted_password", "$2a$11$kXSMvWGz79Yui9b22i7bRuZFiUo0njwe5fxHzfNJ5pY72ZseZJ67m"], ["description", "Perferendis et repellendus magnam ab fugiat qui id in possimus assumenda in quo mollitia sint vitae tempora quidem quibusdam quaerat."], ["first_name", "Rene"], ["last_name", "Parker"], ["created_at", "2019-08-14 09:57:25.124760"], ["updated_at", "2019-08-14 09:57:25.124760"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-10 00:00:00"], ["duration", 100], ["title", "Surprised by Joy"], ["description", "Cupiditate itaque et incidunt molestias accusantium aliquam alias in molestiae adipisci voluptate ad placeat qui vel fuga eveniet dolor autem corporis quia qui non aperiam earum quam ratione qui id."], ["price", 69], ["location", "New Stanley"], ["admin_id", 13], ["created_at", "2019-08-14 09:57:25.138576"], ["updated_at", "2019-08-14 09:57:25.138576"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-06 00:00:00"], ["duration", 100], ["title", "The Wings of the Dove"], ["description", "Rem repellendus voluptatem quod est ab et rerum officia eveniet aspernatur id in et debitis maxime voluptatem labore tempore occaecati voluptatem neque quasi ducimus molestiae esse et autem ex ullam."], ["price", 69], ["location", "West Val"], ["admin_id", 15], ["created_at", "2019-08-14 09:57:25.142441"], ["updated_at", "2019-08-14 09:57:25.142441"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-08-29 00:00:00"], ["duration", 100], ["title", "The Mirror Crack'd from Side to Side"], ["description", "Autem quos sint neque voluptates explicabo sunt porro saepe error voluptas cum atque est aut iste non magnam necessitatibus dolorum sapiente omnis ducimus ad et sit in ut reiciendis commodi."], ["price", 69], ["location", "Port Lavettebury"], ["admin_id", 17], ["created_at", "2019-08-14 09:57:25.146198"], ["updated_at", "2019-08-14 09:57:25.146198"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.4ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-09-25 00:00:00"], ["duration", 100], ["title", "When the Green Woods Laugh"], ["description", "Assumenda consequatur labore hic rerum minima nihil non accusamus magni atque sit incidunt fugiat quod adipisci corporis iste facere neque quia perspiciatis odit illum excepturi et dolore voluptas ut dolor."], ["price", 69], ["location", "North Mitsuemouth"], ["admin_id", 10], ["created_at", "2019-08-14 09:57:25.150495"], ["updated_at", "2019-08-14 09:57:25.150495"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-10-18 00:00:00"], ["duration", 100], ["title", "East of Eden"], ["description", "Cupiditate aut impedit quia ut odio fugiat provident neque natus sed consequatur enim velit voluptatem vel saepe officia non porro deleniti ducimus est quis quae harum quasi et unde corporis."], ["price", 69], ["location", "Bernierstad"], ["admin_id", 10], ["created_at", "2019-08-14 09:57:25.154432"], ["updated_at", "2019-08-14 09:57:25.154432"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-09-22 00:00:00"], ["duration", 100], ["title", "The Yellow Meads of Asphodel"], ["description", "Corrupti veritatis voluptatem enim provident est et quas sed tempora error perspiciatis natus laudantium ipsum laboriosam architecto molestiae sit impedit atque ut ab dolore reprehenderit voluptas minima autem et totam."], ["price", 69], ["location", "West Jermaine"], ["admin_id", 17], ["created_at", "2019-08-14 09:57:25.158018"], ["updated_at", "2019-08-14 09:57:25.158018"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-09-14 00:00:00"], ["duration", 100], ["title", "The Green Bay Tree"], ["description", "Repudiandae incidunt delectus est ullam officiis voluptas facilis rem necessitatibus cumque non autem quia sequi temporibus qui rerum natus sunt et exercitationem aspernatur et laudantium nesciunt dicta quas illo accusamus."], ["price", 69], ["location", "Kochside"], ["admin_id", 12], ["created_at", "2019-08-14 09:57:25.161432"], ["updated_at", "2019-08-14 09:57:25.161432"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-10-28 00:00:00"], ["duration", 100], ["title", "The Man Within"], ["description", "Delectus et numquam aut voluptatem ea in laudantium ut dolorum sit magni aliquam fugiat sed consequuntur nobis est qui voluptatibus voluptatem molestias sit quisquam qui ipsam aut deserunt molestiae rerum."], ["price", 69], ["location", "West Kory"], ["admin_id", 10], ["created_at", "2019-08-14 09:57:25.165180"], ["updated_at", "2019-08-14 09:57:25.165180"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.9ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "5308728353"], ["participant_id", 10], ["event_id", 11], ["created_at", "2019-08-14 09:57:25.175221"], ["updated_at", "2019-08-14 09:57:25.175221"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.2ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "7132167381"], ["participant_id", 17], ["event_id", 13], ["created_at", "2019-08-14 09:57:25.179319"], ["updated_at", "2019-08-14 09:57:25.179319"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.3ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "7160123675"], ["participant_id", 16], ["event_id", 15], ["created_at", "2019-08-14 09:57:25.182372"], ["updated_at", "2019-08-14 09:57:25.182372"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.4ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "3973519436"], ["participant_id", 17], ["event_id", 12], ["created_at", "2019-08-14 09:57:25.189623"], ["updated_at", "2019-08-14 09:57:25.189623"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.3ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "8164701437"], ["participant_id", 12], ["event_id", 17], ["created_at", "2019-08-14 09:57:25.194626"], ["updated_at", "2019-08-14 09:57:25.194626"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.2ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "4777344957"], ["participant_id", 16], ["event_id", 12], ["created_at", "2019-08-14 09:57:25.201179"], ["updated_at", "2019-08-14 09:57:25.201179"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.2ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "4579272744"], ["participant_id", 16], ["event_id", 10], ["created_at", "2019-08-14 09:57:25.205265"], ["updated_at", "2019-08-14 09:57:25.205265"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mAttendance Create (0.2ms)[0m  [1m[32mINSERT INTO "attendances" ("stripe_customer_id", "participant_id", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["stripe_customer_id", "8478207533"], ["participant_id", 12], ["event_id", 15], ["created_at", "2019-08-14 09:57:25.209505"], ["updated_at", "2019-08-14 09:57:25.209505"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-08-14 11:58:46 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#index as HTML
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 11:58:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 219ms (Views: 197.6ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:58:50 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rUW7deDADB3BOM1HfvDqSRwnrhcdZyx6YCATkqXDZqfR2tQcQmrCewW/vj/YnOMZaDPVFXAVk5bZfrY2cY0F5A==", "user"=>{"email"=>"lolo.dreydrey@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "lolo.dreydrey@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 19ms (ActiveRecord: 12.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rUW7deDADB3BOM1HfvDqSRwnrhcdZyx6YCATkqXDZqfR2tQcQmrCewW/vj/YnOMZaDPVFXAVk5bZfrY2cY0F5A==", "user"=>{"email"=>"lolo.dreydrey@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 182ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:58:53 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UQq9x1GIyEHxldnEAJVZnoqOZZmmT5zj9K3XIITuNestldKu8yIGJzUSqrym+VDO/poem8s9Iw9N83KEUKBWqA==", "user"=>{"email"=>"lolo.dreydrey@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "lolo.dreydrey@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.5ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UQq9x1GIyEHxldnEAJVZnoqOZZmmT5zj9K3XIITuNestldKu8yIGJzUSqrym+VDO/poem8s9Iw9N83KEUKBWqA==", "user"=>{"email"=>"lolo.dreydrey@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 159ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-08-14 11:58:54 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__316995340035367473_70127192997600 at /Users/louisdreyfus/ladref/THP/Week7/Day29_Gem_Devise/eventbrite-v2/app/views/devise/registrations/new.html.erb:6)
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 11:59:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 76ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 11:59:46 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ynr+RwcaaPGrLdp95aeg4VGWgYvCVX9jLpeYSFt74fIzoYLiTTzIfftUo4ojfSNCrIl2g1KELV5AviyYwRNxTQ==", "user"=>{"email"=>"louis.dreyfus@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "louis.dreyfus@icloud.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.7ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ynr+RwcaaPGrLdp95aeg4VGWgYvCVX9jLpeYSFt74fIzoYLiTTzIfftUo4ojfSNCrIl2g1KELV5AviyYwRNxTQ==", "user"=>{"email"=>"louis.dreyfus@icloud.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 158ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-08-14 11:59:49 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_erb__316995340035367473_70127193642740 at /Users/louisdreyfus/ladref/THP/Week7/Day29_Gem_Devise/eventbrite-v2/app/views/devise/registrations/new.html.erb:6)
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2019-08-14 12:00:19 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3xIy1qj54Popcqr6Al0jU5ecvNYMk7+Za+DEssesuiSYnCLHJacKEP8Ki850Hfm/QxsrZRAs5vUAPdn2UqO3uA==", "user"=>{"first_name"=>"louistest", "last_name"=>"testlouis", "description"=>"testforlouisfortest", "email"=>"louis.test@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "louis.test@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "description", "first_name", "last_name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "louis.test@gmail.com"], ["encrypted_password", "$2a$11$K4wWOC5/i92M8hlUItvLG.f8mFn8XbQtko9i8U/xohFWyXqwHrGu2"], ["description", "testforlouisfortest"], ["first_name", "louistest"], ["last_name", "testlouis"], ["created_at", "2019-08-14 10:00:19.186376"], ["updated_at", "2019-08-14 10:00:19.186376"]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 162ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 12:00:19 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 46ms (Views: 30.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/events/10" for ::1 at 2019-08-14 12:00:27 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (16.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 26.7ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 12:00:35 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 47ms (Views: 25.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 12:00:39 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (9.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 58ms (Views: 39.2ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/events/15" for ::1 at 2019-08-14 12:00:45 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (8.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 51ms (Views: 34.7ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/events/13" for ::1 at 2019-08-14 12:01:43 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (4.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 42ms (Views: 26.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 12:01:47 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 58ms (Views: 49.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 12:01:50 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 35ms (Views: 25.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 12:01:52 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (19.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 65ms (Views: 21.4ms | ActiveRecord: 19.9ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 12:01:54 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 12:02:00 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (12.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 60ms (Views: 40.3ms | ActiveRecord: 12.8ms)
+
+

@@ -5,8 +5,9 @@ class Event < ApplicationRecord
   validates :description, presence:true, length: {in: 20..1000 }
   validates :price, presence:true, numericality: {greater_than: 1, less_than_or_equal_to: 100}
   validates :location, presence:true
+  belongs_to :admin, class_name: "User"
   has_many :attendances
-  has_many :users, through: :attendances
+  has_many :participant, through: :attendances
 
   def end_date
     @end_date = self.start_date + self.duration

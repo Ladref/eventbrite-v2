@@ -3,8 +3,9 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-  has_many :attendances
+  has_many :attendances, foreign_key: 'participant_id'
   has_many :events, through: :attendances
+  has_many :events_admin, foreign_key: 'admin_id', class_name: 'Event'
   #aafter_create :welcome_send
   #Enlever ligne 8 sinon heroku plante
 
