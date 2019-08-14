@@ -7,5 +7,6 @@
     <p class="card-text"><strong>End date:</strong> <%= @event.end_date %></p>
     <p class="card-text"><strong>Description:</strong> <%= @event.description %></p>
     <a href="<%= new_event_attendance_path(@event.id) %>" class="btn btn-primary">Register to this event</a>
+    <a href="<%= event_attendances_path(@event.id) %>" class="btn btn-primary">See all participants</a>
   </div>
 </div>

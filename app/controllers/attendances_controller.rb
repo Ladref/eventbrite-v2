@@ -7,7 +7,7 @@ class AttendancesController < ApplicationController
 
 
   def index
-    @attendance = Attendance.all
+    @attendances = Attendance.all
   end
 
 
