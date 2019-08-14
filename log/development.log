@@ -20375,3 +20375,433 @@ Processing by EventsController#index as HTML
 Completed 200 OK in 60ms (Views: 40.3ms | ActiveRecord: 12.8ms)
 
 
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-08-23 00:00:00"], ["duration", 30], ["title", "thp event"], ["description", "this is an event for thp"], ["price", 30], ["location", "Paris"], ["admin_id", 13], ["created_at", "2019-08-14 14:56:59.200465"], ["updated_at", "2019-08-14 14:56:59.200465"]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "louis.legrosnul@icloud.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "louis.legrosnul@icloud.com"], ["encrypted_password", "$2a$11$ZB0Up3panm5ow8LW6oYJwOLzeQieAhPYwoWWsopyg7/C9xWSXbz/m"], ["created_at", "2019-08-14 14:58:02.355645"], ["updated_at", "2019-08-14 14:58:02.355645"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" ORDER BY "events"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2019-08-14 16:59:09 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 238ms (Views: 206.3ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/events/15" for ::1 at 2019-08-14 16:59:14 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 26.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/id" for ::1 at 2019-08-14 16:59:24 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"id"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 22.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 16:59:29 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 306ms (Views: 28.7ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 16:59:59 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FU8xzocZqM/VUyNjuVvboOjVM8HO4nlzowpRCgEdwlJ7vmYBK3Eo1Lo+C/6D0aLIeMTQRt+QvDTWXFyUGoca0Q==", "title"=>"THP TEST", "description"=>["THP TEST FOR EVENTBRITE"], "location"=>"PARIS", "start_date"=>"Aug, 23rd 2019", "duration"=>"45", "price"=>"30", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-08-23 00:00:00"], ["duration", 45], ["title", "THP TEST"], ["description", "[\"THP TEST FOR EVENTBRITE\"]"], ["price", 30], ["location", "PARIS"], ["admin_id", 19], ["created_at", "2019-08-14 14:59:59.336691"], ["updated_at", "2019-08-14 14:59:59.336691"]]
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:24
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 16:59:59 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 19.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/10" for ::1 at 2019-08-14 17:00:27 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 28.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 17:01:46 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 190ms (Views: 156.2ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 17:04:49 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 280ms (Views: 32.6ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 17:05:45 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ADst5uxhHl6RVDWqx1ABmxV+dk1+Ku90azyLaELJgUBuynopQAmeRf45HTf92njzhW+Vym9YKjMeaob2WVNZww==", "title"=>"MADRAS DAY DU 02 NOVEMBRE 2019", "description"=>["Le madras, un tissu qui souhaite faire sa place dans le secteur de la mode. Des créateurs, des associations et des personnalités oeuvrent au quotidien pour sa mise en valeur."], "location"=>"PARIS", "start_date"=>"sam. 2 novembre 2019", "duration"=>"60", "price"=>"10", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[36mEvent Create (0.8ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-02 00:00:00"], ["duration", 60], ["title", "MADRAS DAY DU 02 NOVEMBRE 2019"], ["description", "[\"Le madras, un tissu qui souhaite faire sa place dans le secteur de la mode. Des créateurs, des associations et des personnalités oeuvrent au quotidien pour sa mise en valeur.\"]"], ["price", 10], ["location", "PARIS"], ["admin_id", 19], ["created_at", "2019-08-14 15:05:45.171478"], ["updated_at", "2019-08-14 15:05:45.171478"]]
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:24
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 3.9ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"events"}, missing required keys: [:id]):
+  
+app/controllers/events_controller.rb:26:in `create'
+Started POST "/events" for ::1 at 2019-08-14 17:06:33 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ADst5uxhHl6RVDWqx1ABmxV+dk1+Ku90azyLaELJgUBuynopQAmeRf45HTf92njzhW+Vym9YKjMeaob2WVNZww==", "title"=>"MADRAS DAY DU 02 NOVEMBRE 2019", "description"=>["Le madras, un tissu qui souhaite faire sa place dans le secteur de la mode. Des créateurs, des associations et des personnalités oeuvrent au quotidien pour sa mise en valeur."], "location"=>"PARIS", "start_date"=>"sam. 2 novembre 2019", "duration"=>"60", "price"=>"10", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-11-02 00:00:00"], ["duration", 60], ["title", "MADRAS DAY DU 02 NOVEMBRE 2019"], ["description", "[\"Le madras, un tissu qui souhaite faire sa place dans le secteur de la mode. Des créateurs, des associations et des personnalités oeuvrent au quotidien pour sa mise en valeur.\"]"], ["price", 10], ["location", "PARIS"], ["admin_id", 19], ["created_at", "2019-08-14 15:06:34.027808"], ["updated_at", "2019-08-14 15:06:34.027808"]]
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:24
+Redirected to http://localhost:3000/events/21
+Completed 302 Found in 50ms (ActiveRecord: 15.7ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 17:06:37 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 44ms (Views: 33.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 17:06:38 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (2.6ms)
+Started GET "/" for ::1 at 2019-08-14 17:06:38 +0200
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.6ms)
+
+
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 73ms (Views: 61.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/events/new" for ::1 at 2019-08-14 17:06:39 +0200
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 41ms (Views: 26.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 17:07:10 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UuV2V8zlaeBnk8zSokc1YQiOaJLhip6Gfqvltg3hv1A8FCGYYI3p+wj+5E+YzUwJmJ+LFfD4W8EL/egoFntn0w==", "title"=>"MADRAS DAY DU 02 NOVEMBRE 2019", "description"=>["Le madras, un tissu qui souhaite faire sa place dans le secteur de la mode. Des créateurs, des associations et des personnalités oeuvrent au quotidien pour sa mise en valeur."], "location"=>"PARIS", "start_date"=>"Aug, 25th 2019", "duration"=>"60", "price"=>"10", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[36mEvent Create (0.7ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-08-25 00:00:00"], ["duration", 60], ["title", "MADRAS DAY DU 02 NOVEMBRE 2019"], ["description", "[\"Le madras, un tissu qui souhaite faire sa place dans le secteur de la mode. Des créateurs, des associations et des personnalités oeuvrent au quotidien pour sa mise en valeur.\"]"], ["price", 10], ["location", "PARIS"], ["admin_id", 19], ["created_at", "2019-08-14 15:07:10.762465"], ["updated_at", "2019-08-14 15:07:10.762465"]]
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:24
+Redirected to http://localhost:3000/events/22
+Completed 302 Found in 13ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/events/22" for ::1 at 2019-08-14 17:07:10 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 28.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events/22" for ::1 at 2019-08-14 17:08:09 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"22"}
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-08-14 17:08:09 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (58.6ms)
+Completed 200 OK in 104ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-08-14 17:08:11 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zeystI1m7Ui4JrT5CM0sqpokhg1tMqj3u61HjeAL3ILyWhVjYZQZgwdyZ808YPRwJQTlWzMIeW+zJMG+dZtJXg==", "user"=>{"email"=>"louis.test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "louis.test@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/events/22
+Completed 302 Found in 142ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/events/22" for ::1 at 2019-08-14 17:08:11 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 32.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2019-08-14 17:08:51 +0200
+Processing by EventsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:19
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 58ms (Views: 52.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/events/17" for ::1 at 2019-08-14 17:09:18 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (3.9ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 25.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/events/21" for ::1 at 2019-08-14 17:09:23 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 21.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/events/21" for ::1 at 2019-08-14 17:10:00 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 21.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events/21" for ::1 at 2019-08-14 17:10:06 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 29.4ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" ORDER BY "events"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" ORDER BY "events"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/events/new" for ::1 at 2019-08-14 17:11:00 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/events_controller.rb:9
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 427ms (Views: 190.9ms | ActiveRecord: 7.2ms)
+
+
+Started POST "/events" for ::1 at 2019-08-14 17:11:31 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CmakLKeGYLeBfx2tk9/6r/fB+m1M+KDXL0e3sJU0lby5LXvoK0Gd3ZFKxp6sC4WXI7wRmxD0KGijyXseuNb+3A==", "title"=>"the event", "description"=>["this is a description for the top event"], "location"=>"Marseille", "start_date"=>"Aug, 30th 2019", "duration"=>"40", "price"=>"13", "commit"=>"Submit event"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:24
+  [1m[36mEvent Create (6.4ms)[0m  [1m[32mINSERT INTO "events" ("start_date", "duration", "title", "description", "price", "location", "admin_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["start_date", "2019-08-30 00:00:00"], ["duration", 40], ["title", "the event"], ["description", "[\"this is a description for the top event\"]"], ["price", 13], ["location", "Marseille"], ["admin_id", 19], ["created_at", "2019-08-14 15:11:31.374004"], ["updated_at", "2019-08-14 15:11:31.374004"]]
+  ↳ app/controllers/events_controller.rb:24
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:24
+Redirected to http://localhost:3000/events/23
+Completed 302 Found in 18ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/events/23" for ::1 at 2019-08-14 17:11:31 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 38.2ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" ORDER BY "events"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT  "events".* FROM "events" ORDER BY "events"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/events/23" for ::1 at 2019-08-14 17:12:32 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 183ms (Views: 146.0ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/events/23" for ::1 at 2019-08-14 17:20:14 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 69ms (Views: 48.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/events/23" for ::1 at 2019-08-14 17:32:04 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ /Users/louisdreyfus/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:13
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 265ms (Views: 217.4ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/attendances/new" for ::1 at 2019-08-14 17:32:06 +0200
+Processing by AttendancesController#new as HTML
+  Rendering attendances/new.html.erb within layouts/application
+  Rendered attendances/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:47
+Completed 200 OK in 39ms (Views: 33.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/attendances/new" for ::1 at 2019-08-14 17:32:18 +0200
+Processing by AttendancesController#new as HTML
+  Rendering attendances/new.html.erb within layouts/application
+  Rendered attendances/new.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:47
+Completed 200 OK in 37ms (Views: 31.7ms | ActiveRecord: 0.4ms)
+
+

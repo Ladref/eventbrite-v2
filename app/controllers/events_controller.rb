@@ -20,10 +20,10 @@ class EventsController < ApplicationController
                         start_date: params[:start_date],
                         duration: params[:duration].to_i,
                         price: params[:price].to_i,
-                        admin_id_id: current_user.idl)
+                        admin: current_user)
     if @event.save
       flash[:success] = "The event has been saved."
-      redirect_to root_path
+      redirect_to @event
     else
       render 'new'
     end
