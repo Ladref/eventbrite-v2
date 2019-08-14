@@ -29,6 +29,12 @@ class EventsController < ApplicationController
     end
   end
 
+  def attendees
+    
+
+  end
+
+
 
 
 end
