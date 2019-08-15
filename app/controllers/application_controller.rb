@@ -6,14 +6,5 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:account_update) {|u| u.permit(:first_name, :last_name, :description, :email, :password, :password_confirmation)}
   end
 
-  def create
-    @user = User.new(user_params)
-    if @user.save
-      flash[:success] = "The event has been saved!!"
-      redirect_to @user
-    else
-      render 'new'
-    end
-  end
 
 end

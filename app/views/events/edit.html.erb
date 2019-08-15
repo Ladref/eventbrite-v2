@@ -1,0 +1,65 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Modify whatever you want</h1>
+  </div>
+</div>
+
+
+    <div class="row">
+      <%= form_for @event do |f| %>
+      <div class="col">
+          <%= label_tag 'Title' %> <br />
+          <%= text_field_tag 'title', @event.title, class: 'form-control', autofocus: true %>
+      </div>
+        <br /> <br />
+
+        <div class="col">
+          <%= label_tag 'Description' %><br />
+          <%= text_area 'description', @event.description, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
+
+          <div class="col">
+          <%= label_tag 'Location' %><br />
+          <%= text_field_tag 'location', @event.location, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
+
+        <div class="col">
+          <%= label_tag 'Start date' %><br />
+          <%= date_field_tag 'start_date', @event.start_date, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
+
+        <div class="col">
+          <%= label_tag 'Duration in mins' %><br />
+          <%= number_field_tag 'duration', @event.duration, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
+
+        <div class="col">
+          <%= label_tag 'Price' %><br />
+          <%= number_field_tag 'price', @event.price, class: 'form-control', autofocus: true %>
+        </div>
+          <br /> <br />
+
+        <div class="col">
+        <%= submit_tag "Modify event", class: "btn btn-primary" %>
+        <%= link_to "Delete event", event_path(@event), method: :delete, class: "btn btn-primary" %>
+        </div>
+      <% end %>
+
+
+
+      </div>
+
+      <br/><br/>
+    <% if @event.errors.any? %>
+
+    <p>Please verify your event:</p>
+    <ul>
+      <% @event.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+    <% end %>

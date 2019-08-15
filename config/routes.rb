@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :users
   resources :charges
   resources :attendances, only: [:new, :index, :create]
-  resources :events, only: [:index, :new, :create, :show] do
+  resources :events do
     resources :attendances, only: [:new, :index, :create]
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
