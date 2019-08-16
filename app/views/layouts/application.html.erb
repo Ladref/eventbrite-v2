@@ -33,6 +33,11 @@
             <li class="nav-item">
               <a class="nav-link" href="<%=new_event_path%>">Create Event</a>
             </li>
+            <% if isAdmin? %>
+            <li class="nav-item">
+              <a class="nav-link" href="<%=admin_users_path%>">Users</a>
+            </li>
+            <% end %>
           </ul>
         </div>
 
@@ -68,7 +73,7 @@
     <% flash.each do |key, value| %>
       <div class="alert alert-<%= key %>"><%= value %></div>
     <% end %>
-    
+
     <%= yield %>
 
   </body>
